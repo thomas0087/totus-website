@@ -1,0 +1,59 @@
+baseURL = "https://totus.co/"
+languageCode = "en-au"
+title = "totus"
+theme = "coder"
+
+paginate = 20 # Default number of pages per page in pagination.
+canonifyurls = true # Enable to turn relative URLs into absolute.
+
+pygmentsstyle = "b2" # Color-theme or style for syntax highlighting.
+pygmentscodefences = true # Enable code fence background highlighting.
+pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
+
+# disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
+
+[params] # theme parameters
+    author = "Thomas Davies" # Author's name.
+    info = "Technical Lead, DevOps" # Author's job title or info.
+    description = "--" # Site description.
+    keywords = "blog,developer,personal" # Site keywords.
+    avatarurl = "images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
+
+    footercontent = "--" # Add footer content
+
+    # Whether you want to hide copyright and credits in the footer.
+    hideCredits = true
+    hideCopyright = true
+
+    # to switch bewteen LTR and RTL layout
+    rtl = false
+
+    # Custom CSS
+    custom_css = []
+
+# Social links
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/thomas0087/"
+[[params.social]]
+    name = "Gitlab"
+    icon = "fab fa-gitlab fa-2x"
+    weight = 2
+    url = "https://gitlab.com/thomas0087/"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 3
+    url = "https://twitter.com/thetomdavies/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
