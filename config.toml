@@ -17,7 +17,7 @@ pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences wi
     info = "Technical Lead, DevOps" # Author's job title or info.
     description = "--" # Site description.
     keywords = "blog,developer,personal" # Site keywords.
-    avatarurl = "images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
+    avatarurl = "avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
 
     footercontent = "--" # Add footer content
 
@@ -43,17 +43,7 @@ pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences wi
     weight = 2
     url = "https://gitlab.com/thomas0087/"
 [[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
+    name = "LinkedIn"
+    icon = "fab fa-linkedin-in fa-2x"
     weight = 3
-    url = "https://twitter.com/thetomdavies/"
-
-# Menu links
-[[menu.main]]
-    name = "Blog"
-    weight = 1
-    url  = "/posts/"
-[[menu.main]]
-    name = "About"
-    weight = 2
-    url = "/about/"
+    url = "https://www.linkedin.com/in/thomas-davies-51a7009b/"
